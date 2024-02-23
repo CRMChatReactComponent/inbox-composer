@@ -32,6 +32,8 @@ export default defineConfig({
         "react-i18next",
         "emoji-picker-react",
         "lodash-es",
+        "styled-components",
+        "emoji-picker-react",
       ],
     },
   },

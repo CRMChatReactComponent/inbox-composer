@@ -1,0 +1,13 @@
+import * as InboxComposer from "../InboxComposer.stories.tsx";
+import Readme from "./docs.md?raw";
+import { Canvas, Meta, Markdown } from "@storybook/blocks";
+
+<Meta title="Documentation" />
+
+# InboxComposer 组件
+
+提供一个统一的输入框组件
+
+<Canvas of={InboxComposer.Slot} />
+
+<Markdown>{Readme}</Markdown>
